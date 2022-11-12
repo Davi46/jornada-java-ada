@@ -19,6 +19,9 @@ public class RacaCachorro  implements  Cachorro{
 
     @Override
     public String toString() {
-        return super.toString();
+        return "RacaCachorro{" +
+                "nome='" + nome + '\'' + ','+
+                "latido='" + latir() + '\'' +
+                '}';
     }
 }

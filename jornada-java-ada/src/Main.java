@@ -20,8 +20,6 @@ public class Main {
 
         Collections.sort(hotel.getHospedes());
 
-        for (RacaCachorro cachorro: hotel.getHospedes()) {
-            System.out.println(cachorro.latir());
-        }
+        hotel.imprimirListaHospedes();
     }
 }

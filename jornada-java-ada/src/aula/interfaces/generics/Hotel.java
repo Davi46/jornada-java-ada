@@ -11,4 +11,10 @@ public class Hotel<T>{
     }
 
     public void addHospedes(T t){hospedes.add(t);}
+
+    public void imprimirListaHospedes(){
+        for (T t: hospedes) {
+            System.out.println(t.toString());
+        }
+    }
 }
